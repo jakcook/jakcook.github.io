@@ -1,0 +1,37 @@
+/*Hosted Font*/
+@font-face {
+    font-family: Chak;
+    src: url(links_img/ChakraPetch-Light.ttf);
+}
+
+
+
+body {
+    background-color: rgb(56, 62, 55);
+    background-image: url(links_img/scan_lines.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+a:link {
+    color:rgb(133, 201, 31);
+}
+
+a:hover {
+    color:rgb(133, 201, 31);
+}
+
+a:visited {
+    color:rgb(133, 201, 31);
+}
+
+
+.link {
+    text-align:center;
+    font-size: 200%;
+    font-family: Chak;
+    line-height: 100px;
+    margin-top: 50px;
+}
